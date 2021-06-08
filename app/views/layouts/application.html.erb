@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Binnorie</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= cloudinary_js_config %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <header>
+      <div class="grey">
+      </div>
+      <div class="transparent">
+        <img class="main-logo" src="/assets/binnorie_logo.png" alt="Binnorie Logo">
+        <nav>
+          <%= link_to 'Home', root_path %>
+          <%= link_to 'Our Products', products_path %>
+          <%= link_to 'FAQs', faqs_path %>
+          <%= link_to 'Contacts', contacts_path %>
+        </nav>
+      </div>
+    </header>
+    <div class="container_main">
+      <%= yield %>
+    </div>
+    <footer>
+      <div class="grey-footer">
+        <img class="footer-logo" src="/assets/binnorie_logo.png" alt="Binnorie Logo">
+        <div class="footer-text">
+            <p class="contact-details-footer">Contact Details:</p>
+          <ul class="contact-footer">
+            <li>Binnorie Dairy</li>
+            <li>Address: 25 Lodge Road Lovedale NSW 2325</li>
+            <li>Open: 10:00 - 17:00 daily</li>
+            <li>Tel: 0249 986 660</li>
+            <li>Email: simon@binnorie.com.au</li>
+          </ul>
+        </div>
+
+        </div>
+    </footer>
+  </body>
+</html>
