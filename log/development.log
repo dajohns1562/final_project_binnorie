@@ -2571,3 +2571,57 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 154ms (Views: 143.9ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2021-06-09 11:03:33 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 63ms (Views: 60.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-06-09 11:05:19 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (17.6ms)
+Completed 200 OK in 119ms (Views: 111.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-06-09 11:07:07 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 137ms (Views: 130.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-06-09 11:07:17 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (16.9ms)
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (The asset "innorie - Cheese Image 3.jpeg" is not present in the asset pipeline.
+):
+    19:         </ol>
+    20:         <div class="carousel-inner">
+    21:             <div class="carousel-item active">
+    22:                 <img class="d-block w-100 carousel_image" src="<%= image_path('innorie - Cheese Image 3.jpeg') %>" alt="First slide">
+    23:             </div>
+    24:             <div class="carousel-item">
+    25:                 <img class="d-block w-100 carousel_image" src="<%= image_path('Binnorie - Cheese Image 5.jpeg') %>" alt="Second slide">
+  
+app/views/pages/home.html.erb:22:in `_app_views_pages_home_html_erb___1906895685829427075_20840'
+Started GET "/" for ::1 at 2021-06-09 11:07:25 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 59ms (Views: 56.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-06-09 11:21:10 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (21.5ms)
+Completed 200 OK in 150ms (Views: 140.3ms | ActiveRecord: 0.0ms)
+
+
