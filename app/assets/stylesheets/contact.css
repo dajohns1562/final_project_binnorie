@@ -1,0 +1,25 @@
+.contact_container {
+  font-family: droid-serif,serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.contact_info {
+  display: flex;
+  display: inline-grid;
+  grid-template-columns: 50% 50%;
+}
+
+.contact-details {
+list-style-type: none;
+line-height: 30px;
+font-size: 15px;
+margin-top: 8em;
+margin-left: 2em;
+}
+
+.contact_title {
+  color: #f47b21;
+  font-weight: bold;
+  font-size: 20px;
+}

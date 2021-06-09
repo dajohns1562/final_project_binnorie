@@ -2527,6 +2527,141 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 6098ms (Views: 6093.5ms | ActiveRecord: 0.0ms)
 
 
+<<<<<<< HEAD
+Started GET "/" for ::1 at 2021-06-09 10:42:42 +1000
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/kimberleyfaith/.rvm/gems/ruby-2.7.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.1ms)
+Started GET "/" for ::1 at 2021-06-09 10:42:46 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 5113ms (Views: 5108.5ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1396ms (Views: 1394.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2021-06-09 10:42:58 +1000
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 61ms (Views: 58.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faqs" for ::1 at 2021-06-09 10:42:59 +1000
+Processing by FaqsController#index as HTML
+  Rendering faqs/index.html.erb within layouts/application
+  Rendered faqs/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 57ms (Views: 55.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts" for ::1 at 2021-06-09 10:43:00 +1000
+Processing by ContactsController#index as HTML
+  Rendering contacts/index.html.erb within layouts/application
+  Rendered contacts/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 56ms (Views: 54.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faqs" for ::1 at 2021-06-09 10:43:01 +1000
+Processing by FaqsController#index as HTML
+  Rendering faqs/index.html.erb within layouts/application
+  Rendered faqs/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 66ms (Views: 63.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2021-06-09 10:43:02 +1000
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 64ms (Views: 62.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-06-09 10:43:03 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 70ms (Views: 68.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts" for ::1 at 2021-06-09 10:45:06 +1000
+Processing by ContactsController#index as HTML
+  Rendering contacts/index.html.erb within layouts/application
+  Rendered contacts/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 64ms (Views: 62.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts" for ::1 at 2021-06-09 10:46:56 +1000
+Processing by ContactsController#index as HTML
+  Rendering contacts/index.html.erb within layouts/application
+  Rendered contacts/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 65ms (Views: 62.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts" for ::1 at 2021-06-09 10:56:29 +1000
+Processing by ContactsController#index as HTML
+  Rendering contacts/index.html.erb within layouts/application
+  Rendered contacts/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 2221ms (Views: 2218.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts" for ::1 at 2021-06-09 10:57:36 +1000
+Processing by ContactsController#index as HTML
+  Rendering contacts/index.html.erb within layouts/application
+  Rendered contacts/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1271ms (Views: 1269.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts" for ::1 at 2021-06-09 10:59:47 +1000
+Processing by ContactsController#index as HTML
+  Rendering contacts/index.html.erb within layouts/application
+  Rendered contacts/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 491ms (Views: 489.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts" for ::1 at 2021-06-09 11:01:15 +1000
+Processing by ContactsController#index as HTML
+  Rendering contacts/index.html.erb within layouts/application
+  Rendered contacts/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 513ms (Views: 510.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts" for ::1 at 2021-06-09 11:01:30 +1000
+Processing by ContactsController#index as HTML
+  Rendering contacts/index.html.erb within layouts/application
+  Rendered contacts/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 607ms (Views: 604.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts" for ::1 at 2021-06-09 11:01:54 +1000
+Processing by ContactsController#index as HTML
+  Rendering contacts/index.html.erb within layouts/application
+  Rendered contacts/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 607ms (Views: 605.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts" for ::1 at 2021-06-09 11:02:13 +1000
+Processing by ContactsController#index as HTML
+  Rendering contacts/index.html.erb within layouts/application
+  Rendered contacts/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 512ms (Views: 510.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts" for ::1 at 2021-06-09 11:04:04 +1000
+Processing by ContactsController#index as HTML
+  Rendering contacts/index.html.erb within layouts/application
+  Rendered contacts/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 509ms (Views: 506.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts" for ::1 at 2021-06-09 11:05:27 +1000
+Processing by ContactsController#index as HTML
+  Rendering contacts/index.html.erb within layouts/application
+  Rendered contacts/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 510ms (Views: 508.9ms | ActiveRecord: 0.0ms)
+=======
 Started GET "/" for ::1 at 2021-06-09 10:55:34 +1000
   [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
   ↳ /home/davidjohnson1562/.rvm/gems/ruby-2.7.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
@@ -2623,6 +2758,7 @@ Processing by PagesController#home as HTML
   Rendering pages/home.html.erb within layouts/application
   Rendered pages/home.html.erb within layouts/application (21.5ms)
 Completed 200 OK in 150ms (Views: 140.3ms | ActiveRecord: 0.0ms)
+>>>>>>> e02dfd3b14bf15e3ea7c30c68083d25543d061c5
 
 
 Started GET "/products" for ::1 at 2021-06-09 11:28:03 +1000
