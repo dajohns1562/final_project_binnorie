@@ -2761,3 +2761,10 @@ Completed 200 OK in 150ms (Views: 140.3ms | ActiveRecord: 0.0ms)
 >>>>>>> e02dfd3b14bf15e3ea7c30c68083d25543d061c5
 
 
+Started GET "/products" for ::1 at 2021-06-09 11:28:03 +1000
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 136ms (Views: 131.9ms | ActiveRecord: 0.0ms)
+
+
