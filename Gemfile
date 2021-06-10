@@ -41,6 +41,10 @@ gem 'cloudinary'
 gem 'bootstrap'
 gem 'jquery-rails'
 
+gem 'pay', '2.6.11'
+
+gem 'stripe', '< 6.0', '>= 2.8'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
