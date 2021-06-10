@@ -17,6 +17,7 @@ h3 {
 
 .inner-card {
   max-width: 66%;
+  height: 90%;
   /* border: 1px solid #333333; */
   margin: 0 auto;
   text-align: left;
@@ -30,4 +31,8 @@ h3 {
 
 button {
   margin-bottom: 1em;
+}
+
+.price {
+  font-weight: bold;
 }
