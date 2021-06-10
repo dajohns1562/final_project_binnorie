@@ -1,2 +1,4 @@
-<h1>Checkout</h1>
-<%= render :partial => "pay/stripe/checkout_button", locals: { session: @checkout_session, title: "Checkout" } %>
+<div class="checkout_container">
+  <h3>Please proceed to checkout</h3>
+  <%= render :partial => "pay/stripe/checkout_button", locals: { session: @checkout_session, title: "Checkout" } %>
+</div>

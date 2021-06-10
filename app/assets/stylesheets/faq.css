@@ -6,9 +6,9 @@
 }
 
 .accordion-button:not(.collapsed) {
-    color: #333333;
-    background-color: #f47b21;
-    box-shadow: inset 0 -1px 0 #f79f5d;
+  color: #333333;
+  background-color: #f47b21;
+  box-shadow: inset 0 -1px 0 #f79f5d;
 }
 
 .accordion-button {
@@ -16,12 +16,12 @@
 }
 
 .accordion-button:focus {
-    border-color: #f79f5d;
-    box-shadow: 0 0 0 0.25rem #f79f5d;
+  border-color: #f79f5d;
+  box-shadow: 0 0 0 0.25rem #f79f5d;
 }
 
 .accordion-item {
-    border: 1px solid #f47b21;
+  border: 1px solid #f47b21;
 }
 
 .faq-top-image {

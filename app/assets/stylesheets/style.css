@@ -1,4 +1,5 @@
 @import url("https://use.typekit.net/ypu4ipn.css");
+
 .grey {
   background-color: #333333;
   width: 100%;
@@ -8,6 +9,7 @@
   /* justify-content: center; */
   /* align-items: flex-end; */
 }
+
 .transparent {
   background-color: rgba(51, 51, 51, 0.5);
   width: 100%;
@@ -16,6 +18,7 @@
   top: 115px;
   z-index: 10;
 }
+
 .main-logo {
   max-width: 172px;
   margin: -95px 43% 0% 43%;
@@ -41,19 +44,21 @@ nav a {
   text-decoration: none;
   font-size: 17px;
 }
+
 nav a:hover {
   color: #f47b21;
   text-decoration: none;
   font-size: 17px;
 }
 
-.products_link {
-}
+.products_link {}
+
 .footer-logo {
   max-width: 11.5em;
   padding-top: 10px;
   margin-left: 10px;
 }
+
 .grey-footer {
   background-color: #333333;
   width: 100%;
@@ -64,16 +69,19 @@ nav a:hover {
   padding-top: 2em;
   padding-left: 2em;
 }
+
 .footer-text {
-  font-family: droid-serif,serif;
+  font-family: droid-serif, serif;
   font-style: normal;
   color: white;
 }
+
 .contact-footer {
-list-style-type: none;
-line-height: 30px;
-font-size: 15px;
+  list-style-type: none;
+  line-height: 30px;
+  font-size: 15px;
 }
+
 .contact-details-footer {
   margin-left: 32px;
   font-weight: 400;
@@ -86,7 +94,6 @@ font-size: 15px;
   cursor: pointer;
   text-decoration: none;
 }
-
 
 .social-link:hover {
   transform: scale(1.2);
