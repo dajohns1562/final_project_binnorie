@@ -4,18 +4,36 @@
   width: 100%;
   height: 115px;
   margin: 0 auto;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: flex-end; */
 }
 .transparent {
-  background-color: rgba(51, 51, 51, 0.2);
+  background-color: rgba(51, 51, 51, 0.5);
   width: 100%;
   height: 6em;
+  position: absolute;
+  top: 115px;
+  z-index: 10;
 }
 .main-logo {
   max-width: 172px;
   margin: -95px 43% 0% 43%;
 }
+
+nav {
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  overflow: auto;
+  display: flex !important;
+  justify-content: space-around !important;
+  z-index: 20;
+  padding-top: 3em;
+}
+
 nav a {
-  color: #333333;
+  color: white;
   text-decoration: none;
   font-size: 17px;
 }
@@ -24,12 +42,7 @@ nav a:hover {
   text-decoration: none;
   font-size: 17px;
 }
-nav {
-  text-align: center;
-  font-weight: bold;
-  text-decoration: none;
-  overflow: auto;
-}
+
 .products_link {
 }
 .footer-logo {
@@ -62,4 +75,8 @@ font-size: 15px;
   font-weight: 400;
   color: #f47b21;
   font-size: 20px;
+}
+
+.email {
+  
 }
