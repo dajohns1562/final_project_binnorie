@@ -1,182 +1,222 @@
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100 carousel_image" src="<%= image_path('Binnorie - Cheese Image 3.jpeg') %>" alt="First slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100 carousel_image" src="<%= image_path('Binnorie - Cheese Image 5.jpeg') %>" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100 carousel_image" src="<%= image_path('Binnorie - Labna 2.jpeg') %>" alt="Third slide">
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
 
-    <div class="accordion" id="accordionExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingOne">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        How long has Binnorie Dairy been trading?
-      </button>
-    </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        The first sale was made 5th April 2003.
+<div class="faq_container">
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          How long has Binnorie Dairy been trading?
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          The first sale was made 5th April 2003.
+        </div>
       </div>
     </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingTwo">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        What breed of cow does the cows’ milk cheese come from?
-      </button>
-    </h2>
-    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        The milk comes from a range of different herds. There are Jersey, Brown Swiss and Friesian. The dairy farms are located between Scone and Cessnock in the Hunter Valley, NSW.
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          What breed of cow does the cows’ milk cheese come from?
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          The milk comes from a range of different herds. There are Jersey, Brown Swiss and Friesian. The dairy farms are located between Scone and Cessnock in the Hunter Valley, NSW.
+        </div>
       </div>
     </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingThree">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        What breed of goat does your goats’ milk cheese come from and where are the goats?
-      </button>
-    </h2>
-    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        The goat milk comes from a genetically superior herd (six main recognised milk producing goat breeds) located just west of Singleton in the Hunter Valley.
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          What breed of goat does your goats’ milk cheese come from and where are the goats?
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          The goat milk comes from a genetically superior herd (six main recognised milk producing goat breeds) located just west of Singleton in the Hunter Valley.
+        </div>
       </div>
     </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingFour">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-        Is labna like bocconcini?
-      </button>
-    </h2>
-    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        No, labna is made from drained yoghurt and has an intense, yoghurt flavour and acidity with its marinade of chilli, garlic and rosemary.
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFour">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          Is labna like bocconcini?
+        </button>
+      </h2>
+      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          No, labna is made from drained yoghurt and has an intense, yoghurt flavour and acidity with its marinade of chilli, garlic and rosemary.
+        </div>
       </div>
     </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingFive">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-        Is Binnorie Marinated feta a ‘Persian feta’?
-      </button>
-    </h2>
-    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        Our marinated feta is made the same way as Persian feta, so it can be used in the same recipes etc., but ours has a superior creamy flavour.
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFive">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+          Is Binnorie Marinated feta a ‘Persian feta’?
+        </button>
+      </h2>
+      <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Our marinated feta is made the same way as Persian feta, so it can be used in the same recipes etc., but ours has a superior creamy flavour.
+        </div>
       </div>
     </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingSix">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-        Do you make any hard cheeses?
-      </button>
-    </h2>
-    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        Binnorie Dairy specialises in soft fresh cheese styles and a few surface-ripened cheeses such as brie, washed rind and buche de chevre.
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingSix">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+          Do you make any hard cheeses?
+        </button>
+      </h2>
+      <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Binnorie Dairy specialises in soft fresh cheese styles and a few surface-ripened cheeses such as brie, washed rind and buche de chevre.
+        </div>
       </div>
     </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingSeven">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-        Are your cheeses made on site?
-      </button>
-    </h2>
-    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        Yes. All our cheeses that we produce are made on site.
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingSeven">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+          Are your cheeses made on site?
+        </button>
+      </h2>
+      <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Yes. All our cheeses that we produce are made on site.
+        </div>
       </div>
     </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingEight">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-        Are the cheeses made from pasteurised milk?
-      </button>
-    </h2>
-    <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        Yes. They are all made from pasteurised milk, which is the law in Australia. The perceived “negative” effect of pasteurising the milk before making the cheese is not something most cheese lovers can detect. The proven positive effect is to destroy potentially harmful pathogens. From our cheese-making perspective, pasteurising allows our starter cultures to dominate the fermentation by destroying any competing bacteria and spoilage enzymes already in the milk, therefore ensuring a consistent quality product.
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingEight">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+          Are the cheeses made from pasteurised milk?
+        </button>
+      </h2>
+      <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Yes. They are all made from pasteurised milk, which is the law in Australia. The perceived “negative” effect of pasteurising the milk before making the cheese is not something most cheese lovers can detect. The proven positive effect is to destroy
+          potentially harmful pathogens. From our cheese-making perspective, pasteurising allows our starter cultures to dominate the fermentation by destroying any competing bacteria and spoilage enzymes already in the milk, therefore ensuring a consistent
+          quality product.
+        </div>
       </div>
     </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingNine">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-        Where does rennet come from?
-      </button>
-    </h2>
-    <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        Rennet contains an enzyme called chymosin which was traditionally collected from the fourth stomach of un-weaned calves, lambs, and kids (goats). Natural calf rennet is collected from slaughtered calves during veal production for example. Most cheeses these days are made using non-animal rennet, produced by a specific mould or another method uses a fungus which has been genetically modified to produce chymosin (fermentation-produced chymosin or FPC). The genetically modified fungus is destroyed before the chymosin is harvested. By 2008, 80-90% of all UK and USA produced cheese was made using FPC.
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingNine">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+          Where does rennet come from?
+        </button>
+      </h2>
+      <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Rennet contains an enzyme called chymosin which was traditionally collected from the fourth stomach of un-weaned calves, lambs, and kids (goats). Natural calf rennet is collected from slaughtered calves during veal production for example. Most
+          cheeses these days are made using non-animal rennet, produced by a specific mould or another method uses a fungus which has been genetically modified to produce chymosin (fermentation-produced chymosin or FPC). The genetically modified fungus is
+          destroyed before the chymosin is harvested. By 2008, 80-90% of all UK and USA produced cheese was made using FPC.
+        </div>
       </div>
     </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingTen">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-        Does Binnorie use animal rennet?
-      </button>
-    </h2>
-    <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        No, all of our cheeses are made using non-animal rennet.
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTen">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+          Does Binnorie use animal rennet?
+        </button>
+      </h2>
+      <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          No, all of our cheeses are made using non-animal rennet.
+        </div>
       </div>
     </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingEleven">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
-        How long does it take to make Binnorie cheeses?
-      </button>
-    </h2>
-    <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        Our fresh cheeses are very quick to produce. Herb and garlic fromage frais can be on the shelf within 3 days of receiving the milk, feta takes one and a half weeks and the brie up 50 days before it is ripe enough to enjoy fully.
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingEleven">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+          How long does it take to make Binnorie cheeses?
+        </button>
+      </h2>
+      <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Our fresh cheeses are very quick to produce. Herb and garlic fromage frais can be on the shelf within 3 days of receiving the milk, feta takes one and a half weeks and the brie up 50 days before it is ripe enough to enjoy fully.
+        </div>
       </div>
     </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingTwelve">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
-        What is the difference between the brie and the washed rind?
-      </button>
-    </h2>
-    <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        Our washed rind is made from the brie. Brie takes 7-8 days to form the rind, and then the mould (penicillin candidam) is scrubbed off over a second week and inoculated with a bacteria (Corynebacteriae) which is responsible for the vivid orange rind and complex pungent aroma and flavour.
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwelve">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+          What is the difference between the brie and the washed rind?
+        </button>
+      </h2>
+      <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Our washed rind is made from the brie. Brie takes 7-8 days to form the rind, and then the mould (penicillin candidam) is scrubbed off over a second week and inoculated with a bacteria (Corynebacteriae) which is responsible for the vivid orange rind
+          and complex pungent aroma and flavour.
+        </div>
       </div>
     </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingThirteen">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
-        What is soft fresh cheese?
-      </button>
-    </h2>
-    <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingThirteen" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        Soft fresh cheese is a specialty of Binnorie Dairy. Soft fresh cheese is typically young in age, soft in texture and delicate in flavour. As the name suggests, fresh cheese is not matured prior to release, and its flavour does not benefit from ageing. Fresh cheese requires protection from air contact to maintain flavour and shelf life. Storage Note: Once opened, tightly seal the cheese from air contact to retain delicate fresh flavour.
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThirteen">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+          What is soft fresh cheese?
+        </button>
+      </h2>
+      <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingThirteen" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Soft fresh cheese is a specialty of Binnorie Dairy. Soft fresh cheese is typically young in age, soft in texture and delicate in flavour. As the name suggests, fresh cheese is not matured prior to release, and its flavour does not benefit from
+          ageing. Fresh cheese requires protection from air contact to maintain flavour and shelf life. Storage Note: Once opened, tightly seal the cheese from air contact to retain delicate fresh flavour.
+        </div>
       </div>
     </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingFourteen">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
-        What is ‘surface-ripened’ cheese? How does the cheese ‘ripen’?
-      </button>
-    </h2>
-    <div id="collapseFourteen" class="accordion-collapse collapse" aria-labelledby="headingFourteen" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        As the name suggests, surface ripened cheeses begin to ripen starting just under the rind or surface and slowly moving toward the centre of the cheese. When cut, a young cheese will have a chalky slightly moist appearance which as the cheese matures will soften and eventually have a shiny creamy texture and exhibit wonderful creamy, mushroomy flavours. The ripening process involves the release of enzymes by the white mould which forms the rind Penicillium candidum which has been isolated from other naturally occurring moulds found growing on cheese and selected for its desirable characteristics. Binnorie brie, for example, takes seven days to grow the downy white mould rind at which stage the cheese is wrapped in specially perforated wraps (surface-ripened cheeses have a living rind and need oxygen). Binnorie Brie can take up to 70 days at regular refrigerator temperatures or 14- 21 days at 13 degrees celcius to fully mature. As well as storage temperature of the cheese, maturation is influenced by seasonal changes in the milk, quality of the milk and how well the cheese maker can react to changes in the milk. Because the time it takes to ripen brie may vary from the 70 days mentioned before, ripeness can be estimated by how the cheese feels and smells. As the cheese nears maturity the white bloomy rind of brie will begin to brown and give more when squeezed gently between thumb and fingers. Once the cheese has been cut into, protect the middle of the cheese from drying out.
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFourteen">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+          What is ‘surface-ripened’ cheese? How does the cheese ‘ripen’?
+        </button>
+      </h2>
+      <div id="collapseFourteen" class="accordion-collapse collapse" aria-labelledby="headingFourteen" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          As the name suggests, surface ripened cheeses begin to ripen starting just under the rind or surface and slowly moving toward the centre of the cheese. When cut, a young cheese will have a chalky slightly moist appearance which as the cheese matures
+          will soften and eventually have a shiny creamy texture and exhibit wonderful creamy, mushroomy flavours. The ripening process involves the release of enzymes by the white mould which forms the rind Penicillium candidum which has been isolated from
+          other naturally occurring moulds found growing on cheese and selected for its desirable characteristics. Binnorie brie, for example, takes seven days to grow the downy white mould rind at which stage the cheese is wrapped in specially perforated
+          wraps (surface-ripened cheeses have a living rind and need oxygen). Binnorie Brie can take up to 70 days at regular refrigerator temperatures or 14- 21 days at 13 degrees celcius to fully mature. As well as storage temperature of the cheese,
+          maturation is influenced by seasonal changes in the milk, quality of the milk and how well the cheese maker can react to changes in the milk. Because the time it takes to ripen brie may vary from the 70 days mentioned before, ripeness can be
+          estimated by how the cheese feels and smells. As the cheese nears maturity the white bloomy rind of brie will begin to brown and give more when squeezed gently between thumb and fingers. Once the cheese has been cut into, protect the middle of the
+          cheese from drying out.
+        </div>
       </div>
     </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingFifteen">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
-        How do you know when a cheese is ‘ripe’?
-      </button>
-    </h2>
-    <div id="collapseFifteen" class="accordion-collapse collapse" aria-labelledby="headingFifteen" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        A slight hint of ammonia is a sign that the cheese is very ripe and very good to eat, depending on personal preference. A strong smell of ammonia indicates the cheese is probably past its best and may exhibit some bitterness from the rind.
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFifteen">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
+          How do you know when a cheese is ‘ripe’?
+        </button>
+      </h2>
+      <div id="collapseFifteen" class="accordion-collapse collapse" aria-labelledby="headingFifteen" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          A slight hint of ammonia is a sign that the cheese is very ripe and very good to eat, depending on personal preference. A strong smell of ammonia indicates the cheese is probably past its best and may exhibit some bitterness from the rind.
+        </div>
       </div>
     </div>
   </div>
