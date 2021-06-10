@@ -1,5 +1,5 @@
 .contact_container {
-  font-family: droid-serif,serif;
+  font-family: droid-serif, serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -11,11 +11,11 @@
 }
 
 .contact-details {
-list-style-type: none;
-line-height: 30px;
-font-size: 15px;
-margin-top: 8em;
-margin-left: 2em;
+  list-style-type: none;
+  line-height: 30px;
+  font-size: 15px;
+  margin-top: 8em;
+  margin-left: 2em;
 }
 
 .contact_title {
@@ -25,13 +25,14 @@ margin-left: 2em;
 }
 
 .contact_p {
-text-align: center;
-    margin-left: 6em;
-    margin-top: 4em;
-    width: 37em;
-    font-size: 16px;
-    font-weight: bold;
+  text-align: center;
+  margin-left: 6em;
+  margin-top: 4em;
+  width: 37em;
+  font-size: 16px;
+  font-weight: bold;
 }
+
 .contact_map {
   border: 4px solid #333333;
   margin-top: 2em;
@@ -39,10 +40,8 @@ text-align: center;
   margin-left: 5em;
 }
 
-.contact_image {
-  
-}
-
-.contact_form {
-
+.contact-top-image {
+  width: 100%;
+  height: 500px;
+  object-fit: fill;
 }
