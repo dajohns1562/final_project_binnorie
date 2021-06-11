@@ -8,7 +8,7 @@ class CheckoutsController < ApplicationController
     @checkout_session = current_user.payment_processor.checkout(
       mode: "payment",
       line_items: "price_1J0dFLGWkwQcywwNshc5qZnl",
-      success_url: "http://localhost:3000/success"
+      success_url: "https://binnorie-project.herokuapp.com/success"
     )
   end
 
