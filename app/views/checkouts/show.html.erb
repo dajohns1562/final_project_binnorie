@@ -1,7 +1,14 @@
+<div>
+  <img class="checkout-top-image" src="/assets/Binnorie - Cheese Image 3.jpeg" alt="Binnorie: Brie Cheese">
+</div>
 <div class="container">
   <div class="checkout_container">
-    <h3>Thank you for supporting Binnorie!</h3>
+    <h3 class="checkout_heading">Thank you for supporting Binnorie!</h3>
     <%= render :partial => "pay/stripe/checkout_button", locals: { session: @checkout_session, title: "Checkout" } %>
-    <img src="<%= image_path('Binnorie - Marinated Fetta.jpeg') %>" alt="Marinated Fetta image" class="checkout-preview">
+  </div>
+  <div class="inner-card">
+    <img src="<%= image_path('Binnorie - Marinated Fetta.jpeg') %>" alt="Marinated Fetta image" class="product-preview">
+    <h3 class="checkout_heading">Marinated Fetta</h3>
+    <p class="price">$15.00</p>
   </div>
 </div>
