@@ -1,4 +1,7 @@
-<div class="checkout_container">
-  <h3>Please proceed to checkout</h3>
-  <%= render :partial => "pay/stripe/checkout_button", locals: { session: @checkout_session, title: "Checkout" } %>
+<div class="container">
+  <div class="checkout_container">
+    <h3>Thank you for supporting Binnorie!</h3>
+    <%= render :partial => "pay/stripe/checkout_button", locals: { session: @checkout_session, title: "Checkout" } %>
+    <img src="<%= image_path('Binnorie - Marinated Fetta.jpeg') %>" alt="Marinated Fetta image" class="checkout-preview">
+  </div>
 </div>

@@ -4629,6 +4629,99 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 127ms (Views: 122.1ms | ActiveRecord: 0.0ms)
 
 
+<<<<<<< HEAD
+Started GET "/" for ::1 at 2021-06-11 07:06:22 +1000
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/davidjohnson1562/.rvm/gems/ruby-2.7.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (5367.2ms)
+Completed 200 OK in 5563ms (Views: 5557.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2021-06-11 07:06:37 +1000
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 87ms (Views: 85.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2021-06-11 07:39:03 +1000
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (22.0ms)
+Completed 200 OK in 4472ms (Views: 4463.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-06-11 09:09:22 +1000
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/davidjohnson1562/.rvm/gems/ruby-2.7.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (598.2ms)
+Completed 200 OK in 664ms (Views: 658.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-06-11 09:13:44 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 74ms (Views: 72.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-06-11 09:26:36 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 66ms (Views: 64.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2021-06-11 09:28:44 +1000
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 63ms (Views: 61.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/checkout" for ::1 at 2021-06-11 09:28:51 +1000
+Processing by CheckoutsController#show as HTML
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[36mUser Create (2.9ms)[0m  [1m[32mINSERT INTO "users" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "janedoe@ga.co"], ["created_at", "2021-06-10 23:28:51.531681"], ["updated_at", "2021-06-10 23:28:51.531681"]]
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[35m (15.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[35m (0.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/checkouts_controller.rb:6
+  [1m[36mUser Update (2.6ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "processor" = $2, "processor_id" = $3 WHERE "users"."id" = $4[0m  [["updated_at", "2021-06-10 23:28:52.254359"], ["processor", "stripe"], ["processor_id", "cus_JeFoQ3IUOi48zk"], ["id", 23]]
+  ↳ app/controllers/checkouts_controller.rb:6
+  [1m[35m (8.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/checkouts_controller.rb:6
+  Rendering checkouts/show.html.erb within layouts/application
+  Rendered /home/davidjohnson1562/.rvm/gems/ruby-2.7.3/gems/pay-2.6.11/app/views/pay/stripe/_checkout_button.html.erb (2.7ms)
+  Rendered checkouts/show.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 1560ms (Views: 73.1ms | ActiveRecord: 44.0ms)
+
+
+Started GET "/checkout" for ::1 at 2021-06-11 09:31:27 +1000
+Processing by CheckoutsController#show as HTML
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[36mUser Create (1.5ms)[0m  [1m[32mINSERT INTO "users" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "janedoe@ga.co"], ["created_at", "2021-06-10 23:31:27.452941"], ["updated_at", "2021-06-10 23:31:27.452941"]]
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[35m (86.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/checkouts_controller.rb:6
+  [1m[36mUser Update (0.6ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "processor" = $2, "processor_id" = $3 WHERE "users"."id" = $4[0m  [["updated_at", "2021-06-10 23:31:27.931641"], ["processor", "stripe"], ["processor_id", "cus_JeFrIrPKSz6ygj"], ["id", 24]]
+  ↳ app/controllers/checkouts_controller.rb:6
+  [1m[35m (113.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/checkouts_controller.rb:6
+  Rendering checkouts/show.html.erb within layouts/application
+  Rendered /home/davidjohnson1562/.rvm/gems/ruby-2.7.3/gems/pay-2.6.11/app/views/pay/stripe/_checkout_button.html.erb (3.7ms)
+  Rendered checkouts/show.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 1308ms (Views: 130.8ms | ActiveRecord: 201.9ms)
+=======
 Started GET "/" for ::1 at 2021-06-11 08:09:49 +1000
   [1m[35m (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
   ↳ /Users/kimberleyfaith/.rvm/gems/ruby-2.7.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
@@ -5730,6 +5823,290 @@ Processing by CheckoutsController#show as HTML
   Rendered /Users/kimberleyfaith/.rvm/gems/ruby-2.7.3/gems/pay-2.6.11/app/views/pay/stripe/_checkout_button.html.erb (0.4ms)
   Rendered checkouts/show.html.erb within layouts/application (1.3ms)
 Completed 200 OK in 843ms (Views: 38.5ms | ActiveRecord: 3.1ms)
+>>>>>>> a6eb4009a85ecfe82a8d3350867e53b98cf5a877
+
+
+Started GET "/checkout" for ::1 at 2021-06-11 09:44:31 +1000
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/davidjohnson1562/.rvm/gems/ruby-2.7.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by CheckoutsController#show as HTML
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[36mUser Create (1.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "janedoe@ga.co"], ["created_at", "2021-06-10 23:44:31.933049"], ["updated_at", "2021-06-10 23:44:31.933049"]]
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[35m (6.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[35m (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/checkouts_controller.rb:6
+  [1m[36mUser Update (2.6ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "processor" = $2, "processor_id" = $3 WHERE "users"."id" = $4[0m  [["updated_at", "2021-06-10 23:44:32.411198"], ["processor", "stripe"], ["processor_id", "cus_JeG4GC9kjSJtfQ"], ["id", 25]]
+  ↳ app/controllers/checkouts_controller.rb:6
+  [1m[35m (99.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/checkouts_controller.rb:6
+  Rendering checkouts/show.html.erb within layouts/application
+  Rendered /home/davidjohnson1562/.rvm/gems/ruby-2.7.3/gems/pay-2.6.11/app/views/pay/stripe/_checkout_button.html.erb (1.1ms)
+  Rendered checkouts/show.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 6890ms (Views: 5651.6ms | ActiveRecord: 116.7ms)
+
+
+Started GET "/checkout" for ::1 at 2021-06-11 09:57:09 +1000
+Processing by CheckoutsController#show as HTML
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[36mUser Create (2.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "janedoe@ga.co"], ["created_at", "2021-06-10 23:57:09.107731"], ["updated_at", "2021-06-10 23:57:09.107731"]]
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[35m (21.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/checkouts_controller.rb:6
+  [1m[36mUser Update (0.8ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "processor" = $2, "processor_id" = $3 WHERE "users"."id" = $4[0m  [["updated_at", "2021-06-10 23:57:09.605630"], ["processor", "stripe"], ["processor_id", "cus_JeGGlMYu608nNg"], ["id", 26]]
+  ↳ app/controllers/checkouts_controller.rb:6
+  [1m[35m (4.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/checkouts_controller.rb:6
+  Rendering checkouts/show.html.erb within layouts/application
+  Rendered /home/davidjohnson1562/.rvm/gems/ruby-2.7.3/gems/pay-2.6.11/app/views/pay/stripe/_checkout_button.html.erb (2.9ms)
+  Rendered checkouts/show.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 1365ms (Views: 263.8ms | ActiveRecord: 30.1ms)
+
+
+Started GET "/checkout" for ::1 at 2021-06-11 09:57:25 +1000
+Processing by CheckoutsController#show as HTML
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[36mUser Create (2.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "janedoe@ga.co"], ["created_at", "2021-06-10 23:57:25.731158"], ["updated_at", "2021-06-10 23:57:25.731158"]]
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[35m (11.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/checkouts_controller.rb:6
+  [1m[36mUser Update (1.6ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "processor" = $2, "processor_id" = $3 WHERE "users"."id" = $4[0m  [["updated_at", "2021-06-10 23:57:26.550902"], ["processor", "stripe"], ["processor_id", "cus_JeGHp1vRC2otwW"], ["id", 27]]
+  ↳ app/controllers/checkouts_controller.rb:6
+  [1m[35m (58.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/checkouts_controller.rb:6
+  Rendering checkouts/show.html.erb within layouts/application
+  Rendered /home/davidjohnson1562/.rvm/gems/ruby-2.7.3/gems/pay-2.6.11/app/views/pay/stripe/_checkout_button.html.erb (4.0ms)
+  Rendered checkouts/show.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 1535ms (Views: 97.5ms | ActiveRecord: 74.2ms)
+
+
+Started GET "/checkout" for ::1 at 2021-06-11 10:06:58 +1000
+Processing by CheckoutsController#show as HTML
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[36mUser Create (2.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "janedoe@ga.co"], ["created_at", "2021-06-11 00:06:58.203552"], ["updated_at", "2021-06-11 00:06:58.203552"]]
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[35m (17.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/checkouts_controller.rb:6
+  [1m[36mUser Update (1.8ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "processor" = $2, "processor_id" = $3 WHERE "users"."id" = $4[0m  [["updated_at", "2021-06-11 00:06:58.656758"], ["processor", "stripe"], ["processor_id", "cus_JeGQkiZgg9QFGB"], ["id", 28]]
+  ↳ app/controllers/checkouts_controller.rb:6
+  [1m[35m (117.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/checkouts_controller.rb:6
+  Rendering checkouts/show.html.erb within layouts/application
+  Rendered /home/davidjohnson1562/.rvm/gems/ruby-2.7.3/gems/pay-2.6.11/app/views/pay/stripe/_checkout_button.html.erb (2.7ms)
+  Rendered checkouts/show.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 1354ms (Views: 166.0ms | ActiveRecord: 139.2ms)
+
+
+Started GET "/checkout" for ::1 at 2021-06-11 10:07:16 +1000
+Processing by CheckoutsController#show as HTML
+  [1m[35m (1.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[36mUser Create (3.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "janedoe@ga.co"], ["created_at", "2021-06-11 00:07:16.977870"], ["updated_at", "2021-06-11 00:07:16.977870"]]
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[35m (12.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/checkouts_controller.rb:6
+  [1m[36mUser Update (3.0ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "processor" = $2, "processor_id" = $3 WHERE "users"."id" = $4[0m  [["updated_at", "2021-06-11 00:07:17.697455"], ["processor", "stripe"], ["processor_id", "cus_JeGQscIzhDd2gO"], ["id", 29]]
+  ↳ app/controllers/checkouts_controller.rb:6
+  [1m[35m (112.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/checkouts_controller.rb:6
+  Rendering checkouts/show.html.erb within layouts/application
+  Rendered /home/davidjohnson1562/.rvm/gems/ruby-2.7.3/gems/pay-2.6.11/app/views/pay/stripe/_checkout_button.html.erb (2.4ms)
+  Rendered checkouts/show.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 1568ms (Views: 120.8ms | ActiveRecord: 133.5ms)
+
+
+Started GET "/checkout" for ::1 at 2021-06-11 10:12:23 +1000
+Processing by CheckoutsController#show as HTML
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[36mUser Create (1.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "janedoe@ga.co"], ["created_at", "2021-06-11 00:12:23.786695"], ["updated_at", "2021-06-11 00:12:23.786695"]]
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[35m (8.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/checkouts_controller.rb:6
+  [1m[36mUser Update (2.3ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "processor" = $2, "processor_id" = $3 WHERE "users"."id" = $4[0m  [["updated_at", "2021-06-11 00:12:24.178301"], ["processor", "stripe"], ["processor_id", "cus_JeGWbDQvLC9i6w"], ["id", 30]]
+  ↳ app/controllers/checkouts_controller.rb:6
+  [1m[35m (117.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/checkouts_controller.rb:6
+  Rendering checkouts/show.html.erb within layouts/application
+  Rendered /home/davidjohnson1562/.rvm/gems/ruby-2.7.3/gems/pay-2.6.11/app/views/pay/stripe/_checkout_button.html.erb (1.8ms)
+  Rendered checkouts/show.html.erb within layouts/application (193.0ms)
+Completed 200 OK in 1199ms (Views: 257.1ms | ActiveRecord: 129.9ms)
+
+
+Started GET "/checkout" for ::1 at 2021-06-11 10:14:11 +1000
+Processing by CheckoutsController#show as HTML
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[36mUser Create (1.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "janedoe@ga.co"], ["created_at", "2021-06-11 00:14:11.134402"], ["updated_at", "2021-06-11 00:14:11.134402"]]
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[35m (4.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/checkouts_controller.rb:6
+  [1m[36mUser Update (3.0ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "processor" = $2, "processor_id" = $3 WHERE "users"."id" = $4[0m  [["updated_at", "2021-06-11 00:14:11.489238"], ["processor", "stripe"], ["processor_id", "cus_JeGXIErTYBd3s4"], ["id", 31]]
+  ↳ app/controllers/checkouts_controller.rb:6
+  [1m[35m (117.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/checkouts_controller.rb:6
+  Rendering checkouts/show.html.erb within layouts/application
+  Rendered /home/davidjohnson1562/.rvm/gems/ruby-2.7.3/gems/pay-2.6.11/app/views/pay/stripe/_checkout_button.html.erb (3.3ms)
+  Rendered checkouts/show.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 3207ms (Views: 2232.5ms | ActiveRecord: 127.7ms)
+
+
+Started GET "/checkout" for ::1 at 2021-06-11 10:14:49 +1000
+Processing by CheckoutsController#show as HTML
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "janedoe@ga.co"], ["created_at", "2021-06-11 00:14:49.254482"], ["updated_at", "2021-06-11 00:14:49.254482"]]
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[35m (14.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/checkouts_controller.rb:6
+  [1m[36mUser Update (1.8ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "processor" = $2, "processor_id" = $3 WHERE "users"."id" = $4[0m  [["updated_at", "2021-06-11 00:14:49.684755"], ["processor", "stripe"], ["processor_id", "cus_JeGYz6OOh1eycS"], ["id", 32]]
+  ↳ app/controllers/checkouts_controller.rb:6
+  [1m[35m (117.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/checkouts_controller.rb:6
+  Rendering checkouts/show.html.erb within layouts/application
+  Rendered /home/davidjohnson1562/.rvm/gems/ruby-2.7.3/gems/pay-2.6.11/app/views/pay/stripe/_checkout_button.html.erb (3.3ms)
+  Rendered checkouts/show.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 1241ms (Views: 83.2ms | ActiveRecord: 135.0ms)
+
+
+Started GET "/checkout" for ::1 at 2021-06-11 10:15:07 +1000
+Processing by CheckoutsController#show as HTML
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "janedoe@ga.co"], ["created_at", "2021-06-11 00:15:07.980660"], ["updated_at", "2021-06-11 00:15:07.980660"]]
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[35m (115.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/checkouts_controller.rb:6
+  [1m[36mUser Update (1.5ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "processor" = $2, "processor_id" = $3 WHERE "users"."id" = $4[0m  [["updated_at", "2021-06-11 00:15:08.634125"], ["processor", "stripe"], ["processor_id", "cus_JeGYDbIPMw0nOf"], ["id", 33]]
+  ↳ app/controllers/checkouts_controller.rb:6
+  [1m[35m (114.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/checkouts_controller.rb:6
+  Rendering checkouts/show.html.erb within layouts/application
+  Rendered /home/davidjohnson1562/.rvm/gems/ruby-2.7.3/gems/pay-2.6.11/app/views/pay/stripe/_checkout_button.html.erb (2.3ms)
+  Rendered checkouts/show.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 3250ms (Views: 1880.7ms | ActiveRecord: 232.4ms)
+
+
+Started GET "/checkout" for ::1 at 2021-06-11 10:16:02 +1000
+Processing by CheckoutsController#show as HTML
+  [1m[35m (1.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[36mUser Create (1.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "janedoe@ga.co"], ["created_at", "2021-06-11 00:16:02.571027"], ["updated_at", "2021-06-11 00:16:02.571027"]]
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[35m (12.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[35m (1.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/checkouts_controller.rb:6
+  [1m[36mUser Update (3.7ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "processor" = $2, "processor_id" = $3 WHERE "users"."id" = $4[0m  [["updated_at", "2021-06-11 00:16:03.008375"], ["processor", "stripe"], ["processor_id", "cus_JeGZx4NqGmh37r"], ["id", 34]]
+  ↳ app/controllers/checkouts_controller.rb:6
+  [1m[35m (120.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/checkouts_controller.rb:6
+  Rendering checkouts/show.html.erb within layouts/application
+  Rendered /home/davidjohnson1562/.rvm/gems/ruby-2.7.3/gems/pay-2.6.11/app/views/pay/stripe/_checkout_button.html.erb (4.7ms)
+  Rendered checkouts/show.html.erb within layouts/application (21.0ms)
+Completed 200 OK in 3484ms (Views: 2220.4ms | ActiveRecord: 140.1ms)
+
+
+Started GET "/checkout" for ::1 at 2021-06-11 10:16:47 +1000
+Processing by CheckoutsController#show as HTML
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[36mUser Create (1.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "janedoe@ga.co"], ["created_at", "2021-06-11 00:16:47.542721"], ["updated_at", "2021-06-11 00:16:47.542721"]]
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[35m (10.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/checkouts_controller.rb:6
+  [1m[36mUser Update (2.8ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "processor" = $2, "processor_id" = $3 WHERE "users"."id" = $4[0m  [["updated_at", "2021-06-11 00:16:47.959895"], ["processor", "stripe"], ["processor_id", "cus_JeGaRAD6utt5Ud"], ["id", 35]]
+  ↳ app/controllers/checkouts_controller.rb:6
+  [1m[35m (113.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/checkouts_controller.rb:6
+  Rendering checkouts/show.html.erb within layouts/application
+  Rendered /home/davidjohnson1562/.rvm/gems/ruby-2.7.3/gems/pay-2.6.11/app/views/pay/stripe/_checkout_button.html.erb (2.6ms)
+  Rendered checkouts/show.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 1094ms (Views: 113.4ms | ActiveRecord: 129.2ms)
+
+
+Started GET "/checkout" for ::1 at 2021-06-11 10:22:35 +1000
+Processing by CheckoutsController#show as HTML
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "janedoe@ga.co"], ["created_at", "2021-06-11 00:22:35.898365"], ["updated_at", "2021-06-11 00:22:35.898365"]]
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[35m (6.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/checkouts_controller.rb:6
+  [1m[36mUser Update (2.1ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "processor" = $2, "processor_id" = $3 WHERE "users"."id" = $4[0m  [["updated_at", "2021-06-11 00:22:36.321852"], ["processor", "stripe"], ["processor_id", "cus_JeGgkb8cGxUfVT"], ["id", 36]]
+  ↳ app/controllers/checkouts_controller.rb:6
+  [1m[35m (146.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/checkouts_controller.rb:6
+  Rendering checkouts/show.html.erb within layouts/application
+  Rendered /home/davidjohnson1562/.rvm/gems/ruby-2.7.3/gems/pay-2.6.11/app/views/pay/stripe/_checkout_button.html.erb (2.4ms)
+  Rendered checkouts/show.html.erb within layouts/application (17.9ms)
+Completed 200 OK in 1292ms (Views: 108.3ms | ActiveRecord: 169.5ms)
+
+
+Started GET "/success" for ::1 at 2021-06-11 10:22:42 +1000
+Processing by CheckoutsController#success as HTML
+  Rendering checkouts/success.html.erb within layouts/application
+  Rendered checkouts/success.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 67ms (Views: 64.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2021-06-11 10:23:35 +1000
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 57ms (Views: 56.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/checkout" for ::1 at 2021-06-11 10:23:39 +1000
+Processing by CheckoutsController#show as HTML
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "janedoe@ga.co"], ["created_at", "2021-06-11 00:23:39.495583"], ["updated_at", "2021-06-11 00:23:39.495583"]]
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[35m (17.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/checkouts_controller.rb:4
+  [1m[35m (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/checkouts_controller.rb:6
+  [1m[36mUser Update (3.4ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "processor" = $2, "processor_id" = $3 WHERE "users"."id" = $4[0m  [["updated_at", "2021-06-11 00:23:39.917759"], ["processor", "stripe"], ["processor_id", "cus_JeGhiOiZU3aXyy"], ["id", 37]]
+  ↳ app/controllers/checkouts_controller.rb:6
+  [1m[35m (115.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/checkouts_controller.rb:6
+  Rendering checkouts/show.html.erb within layouts/application
+  Rendered /home/davidjohnson1562/.rvm/gems/ruby-2.7.3/gems/pay-2.6.11/app/views/pay/stripe/_checkout_button.html.erb (3.1ms)
+  Rendered checkouts/show.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 1380ms (Views: 205.6ms | ActiveRecord: 146.1ms)
+
+
+Started GET "/success" for ::1 at 2021-06-11 10:24:11 +1000
+Processing by CheckoutsController#success as HTML
+  Rendering checkouts/success.html.erb within layouts/application
+  Rendered checkouts/success.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 138ms (Views: 129.2ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/" for ::1 at 2021-06-11 09:43:09 +1000

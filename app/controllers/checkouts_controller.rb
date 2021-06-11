@@ -8,7 +8,11 @@ class CheckoutsController < ApplicationController
     @checkout_session = current_user.payment_processor.checkout(
       mode: "payment",
       line_items: "price_1J0dFLGWkwQcywwNshc5qZnl",
-      success_url: "http://localhost:3000/"
+      success_url: "http://localhost:3000/success"
     )
+  end
+
+  def success
+
   end
 end
